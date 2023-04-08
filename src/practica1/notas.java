@@ -82,13 +82,13 @@ public class notas {
 
     public void aprobado() {
 
-        if (def < 5 && def >= 0) {
+        if (def < 4 && def >= 0) {
             System.out.println("suspendio");
         } else {
-            if (def >= 5 && def <= 10) {
+            if (def >= 4 && def <= 10) {
                 System.out.println("aprobado");
             } else {
-                System.out.println(" error del sistema");
+                System.out.println("Error del sistema");
             }
         }
     }
